@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(69,69,71,1) 60%, rgba(128,128,128,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(69,69,71,1) 60%, rgba(128,128,128,1) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(69,69,71,1) 60%, rgba(128,128,128,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#808080",GradientType=1);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+    gap: 18px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 16px;
+}
+
+.menu ul li a {
+    font-size: 1.6rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu a:first-child i{
+    font-size: 1.6rem;
+}
+
+.apresentacao {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.apresentacao img{
+    object-fit: contain;
+    max-width: 700px;
+}
+.control-apr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+.name h2{
+    font-size: 4rem;
+}
+.control-apr span{
+    font-size: 1.2rem;
+    text-align: end;
+}
+.role h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.control-apr span {
+    width: 70%;
+    text-align: right;
+    font-weight: 200;
+}
+
+.link-btn button {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #455a64;
+    border:4px solid #f5f5f5;
+}
+.link-btn button a {
+    text-decoration: none;
+    padding: inherit;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.link-btn button:hover{
+    background-color: #263238;
+    transform: scale(10px);
+}
+
+hr {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#resumo {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    margin-bottom: 60px;
+}
+
+.control-texts {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.control-texts hr {
+    margin-top: 20px;
+}
+
+.control-texts figure {
+    display: flex;
+    gap: 20px;
+}
+
+.control-texts figure span {
+    height: 100%;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 200;
+}
+.control-techs {
+    width: 100%;
+    height: inherit;
+    margin-top: 20px;
+}
+.control-techs h2 {
+    margin-bottom: 30px;
+}
+.control-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.control-techs i{
+    font-size: 5rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #16181a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .container p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
